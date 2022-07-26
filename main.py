@@ -32,12 +32,12 @@ scores = list(enumerate(cs[user_id]))
 sorted_scores = sorted(scores, key=lambda x: x[1], reverse=True)
 sorted_scores = sorted_scores[1:]
 
-# Print the first 7 anime recommendations
-print('Top 7 recommendations:')
+# Print the first 3 anime recommendations
+print('Top 3 recommendations:')
 j = 0
 for i in sorted_scores:
     anime_title = df[df['ID'] == i[0]]['Name'].values[0]
     print(anime_title)
-    if j > 6:
+    if j > 1:
         break
     j += 1
