@@ -6,4 +6,4 @@ A basic anime recommender made with Python. This is just a project to learn the 
 - Install dependencies from Pipfile
 - Execute the main.py file
 - Type an anime you liked
-- The program will return seven recommendations (Not very accurate)
+- The program will return three recommendations (Not very accurate)
